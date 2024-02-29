@@ -205,7 +205,7 @@ def train_test_splits(temp_data_df:pd.DataFrame, split:str, test_ratio:float, ra
         plt.hist(y_train, bins, alpha=0.5, label='y_train',color="black")
         plt.hist(y_test, bins, alpha=0.5, label='y_test')
         # plt.legend(loc='best')
-        plt.xlabel("Yield (%)",fontsize=20)
+        plt.xlabel("Output",fontsize=20)
         plt.ylabel("N samples",fontsize=20)
         plt.xticks(fontsize=15)
         plt.yticks(fontsize=15)
