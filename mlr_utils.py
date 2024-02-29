@@ -1,5 +1,5 @@
 # This is a page of basic utility functions that are unlikely to be changed by the average user.
-
+from __future__ import annotations
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
